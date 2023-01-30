@@ -25,8 +25,6 @@ def index():
     result = request.args.get("result")
     return render_template("index.html", result=result)
 
-def decode_html_string(string):
-    return string.replace("&lt;", "<").replace("&gt;", ">").replace("&#34;", '"')
 
 def generate_prompt(prompt):
     return """Prompt: Create 10 review questions about the French revolution with answers and refences?

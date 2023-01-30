@@ -1,7 +1,7 @@
 # openai-quizer
 A little flask app that uses text-davinci to create fun review quizes for a given input.
 
-It is largely based on their quickstart app which can be found here: https://github.com/openai/openai-quickstart-python
+It is largely based on their quickstart app which can be found here: https://github.com/PhysicsUofRAUI/openai-quizer
 
 What follows is a setup pretty much copied from their site.
 
