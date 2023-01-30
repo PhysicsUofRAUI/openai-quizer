@@ -51,6 +51,6 @@
     <input type="submit" value="Generate Questions" />
   </form>
   {% if result %}
-  {{ result }}
+  {{ result|safe }}
   {% endif %}
 </body>
